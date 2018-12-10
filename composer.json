@@ -9,9 +9,15 @@
             "email": "tandrewbennett@hotmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/JanCusters/stapler"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
-        "JanCusters/stapler": "1.2.*",
+        "JanCusters/stapler": "dev-bugfix",
         "laravel/framework": "4.*|5.*"
     },
     "autoload": {
